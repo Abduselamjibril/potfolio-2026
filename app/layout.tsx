@@ -9,23 +9,9 @@ const _manrope = Manrope({ subsets: ["latin"], variable: '--font-manrope' });
 export const metadata: Metadata = {
   title: 'Abduselam Jibril | Full-Stack & Flutter Developer',
   description: 'Portfolio of Abduselam Jibril Ahmed, a Full-Stack Software Engineer and Flutter Mobile Developer specializing in scalable web, mobile, and AI solutions.',
-  generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
+    apple: '/icon.svg',
   },
 }
 
